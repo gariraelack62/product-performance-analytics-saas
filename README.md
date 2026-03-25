@@ -56,7 +56,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
 - **Python** – Data cleaning, transformation
 
-- **SQL** – Data extraction and modelling
+- **SQL (DuckDB)** – Data extraction, transformation, and analytical modelling  
 
 - **Power BI** – Dashboarding and visualisation
 
