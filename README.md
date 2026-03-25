@@ -4,12 +4,9 @@
 📈 Focus: Activation, Adoption, and Churn Reduction  
 🧠 Includes KPI design, data modelling, and stakeholder insights  
 
-Developed an end-to-end product and performance analytics solution for a B2B SaaS CRM, enabling KPI tracking, user behaviour analysis, and data-driven decision-making.
-It focuses on analysing user behaviour, product adoption, and performance metrics to 
-support data-driven decision-making and improve customer outcomes.
+Developed an end-to-end product and performance analytics solution for a B2B SaaS CRM, enabling KPI tracking, user behaviour analysis, and data-driven decision-making to improve activation, engagement, and reduce churn.
 
-The goal is to identify key drivers of activation, engagement, and early-stage churn, and 
-provide actionable insights to stakeholders.
+🔗 This repository includes full data pipelines, SQL models, and Power BI dashboards used to generate insights.
 
 
 ---
@@ -30,7 +27,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
 ---
 
-##  📈 Key Metrics (KPIs)
+## 📈 Key Metrics (KPIs)
 
 - **Activation Rate** – % of users performing key actions within 14 days
 
@@ -94,10 +91,11 @@ This structure ensures scalability, consistency, and data quality.
 ---
 ## 📊 Dashboard Preview
 
+### Overview Dashboard
+![Overview](images/dashboard_overview.png)
 
 ### KPI Analysis
 ![KPI Analysis](images/kpi_analysis.png)
-
 
 ---
 
