@@ -1,7 +1,10 @@
 # 📊 Product & Performance Analytics – SaaS CRM
-## 🚀 Overview
 
-This project delivers an end-to-end product analytics solution for a B2B SaaS CRM platform. 
+🚀 End-to-end analytics solution using Python, SQL, and Power BI  
+📈 Focus: Activation, Adoption, and Churn Reduction  
+🧠 Includes KPI design, data modelling, and stakeholder insights  
+
+Developed an end-to-end product and performance analytics solution for a B2B SaaS CRM, enabling KPI tracking, user behaviour analysis, and data-driven decision-making.
 It focuses on analysing user behaviour, product adoption, and performance metrics to 
 support data-driven decision-making and improve customer outcomes.
 
@@ -27,7 +30,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
 ---
 
-#  📈 Key Metrics (KPIs)
+##  📈 Key Metrics (KPIs)
 
 - **Activation Rate** – % of users performing key actions within 14 days
 
@@ -42,6 +45,15 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
   ---
 
+
+## 💼 Business Impact
+
+- Identified key drop-off points in onboarding impacting activation rates  
+- Highlighted low feature adoption as a driver of early churn  
+- Provided insights to improve user engagement and product usage  
+- Enabled data-driven decision-making across product and sales teams
+
+---
 
   # 🛠️ Tech Stack
 
@@ -71,20 +83,29 @@ This structure ensures scalability, consistency, and data quality.
 
 ---
 
+## 🔄 Data Workflow
 
-# 📊 Dashboard & Analysis
+1. Data Collection – Raw product and account data  
+2. Data Cleaning – Python (Pandas)  
+3. Data Modelling – SQL (Bronze → Silver layers)  
+4. Analysis – KPI definition and trend analysis  
+5. Visualisation – Power BI dashboards
 
-The Power BI dashboard enables:
+---
+## 📊 Dashboard Preview
 
-  - KPI tracking and performance monitoring
+![Dashboard Overview](images/dashboard-overview.png)
+![KPI Analysis](images/kpi-analysis.png)
 
-  - Trend analysis across time, users, and regions
 
-  - Identification of onboarding drop-offs
+---
+## 🔍 Key Analysis Performed
 
-  - Insights into feature adoption patterns
-
-  - Detection of churn risks
+- Cohort analysis (user activation over time)  
+- Funnel analysis (onboarding drop-offs)  
+- Feature adoption tracking  
+- Trend analysis of user engagement  
+- Root-cause investigation of churn risk  
 
 ---
 
@@ -99,6 +120,12 @@ The Power BI dashboard enables:
   - High engagement correlates with improved conversion rates
 
 ---
+
+## 🧠 Key Takeaways
+
+- Activation is the strongest predictor of retention  
+- Early feature adoption reduces churn risk  
+- Data-driven onboarding improvements can significantly increase engagement  
 
 # 💡 Recommendations
 
@@ -115,31 +142,31 @@ The Power BI dashboard enables:
 
 ## 📂 Repository Structure
 
-<details>
-<summary>Click to expand</summary>
+📂 data – Raw and processed datasets  
+📂 notebooks – Exploratory analysis (Python)  
+📂 sql – Data transformations and modelling  
+📂 powerbi – Dashboard files and reports  
 
-
-# 📂 Repository Structure
-
-/data
-  /raw
-  /bronze
-  /silver
-/notebooks
-/sql
-/powerbi
 
 
 ---
 
 # 👤 Author
 
-## Elack Garira
-Data Analyst | Power BI | SQL | Python
+## Hi, I'm Elack 👋
+
+Data Analyst specialising in performance analytics, KPI reporting, and Power BI dashboards.
+
+🔍 Focus: Data-driven decision-making  
+📊 Tools: SQL, Python, Power BI  
+⚡ Experience: Energy & operational analytics  
+
+📌 Featured Project:
+- Product & Performance Analytics (SaaS CRM)
 
 ---
 
-#⭐ Project Value
+## ⭐ Project Value
 
 This project demonstrates:
 
