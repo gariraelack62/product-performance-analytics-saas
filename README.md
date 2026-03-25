@@ -95,7 +95,7 @@ This structure ensures scalability, consistency, and data quality.
 ![Overview](images/dashboard_overview.png)
 
 ### KPI Analysis
-![KPI Analysis](powerbi – Dashboard files and reports/images/kpi_analysis.png)
+![KPI Analysis](powerbi/images/kpi_analysis.png)
 
 ---
 
