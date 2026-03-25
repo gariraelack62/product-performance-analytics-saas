@@ -3,6 +3,7 @@
 🚀 End-to-end analytics solution using Python, SQL, and Power BI  
 📈 Focus: Activation, Adoption, and Churn Reduction  
 🧠 Includes KPI design, data modelling, and stakeholder insights  
+📌 Designed to simulate real-world product analytics challenges in a SaaS environment
 
 Developed an end-to-end product and performance analytics solution for a B2B SaaS CRM, enabling KPI tracking, user behaviour analysis, and data-driven decision-making to improve activation, engagement, and reduce churn.
 
@@ -70,7 +71,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
 The project follows a layered data model:
 
-  - **Raw Layer** – Source event and account data
+  - **Raw Layer** – product events, accounts, users, deals, and geography datasets
 
   - **Bronze Layer** – Cleaned and standardised data
 
@@ -83,8 +84,8 @@ This structure ensures scalability, consistency, and data quality.
 ## 🔄 Data Workflow
 
 1. Data Collection – Raw product and account data  
-2. Data Cleaning – Python (Pandas)  
-3. Data Modelling – SQL (Bronze → Silver layers)  
+2. Data Cleaning – Python (Pandas)
+3. Data Modelling – SQL (DuckDB, Bronze → Silver layers)
 4. Analysis – KPI definition and trend analysis  
 5. Visualisation – Power BI dashboards
 
@@ -105,7 +106,8 @@ This structure ensures scalability, consistency, and data quality.
 - Funnel analysis (onboarding drop-offs)  
 - Feature adoption tracking  
 - Trend analysis of user engagement  
-- Root-cause investigation of churn risk  
+- Root-cause investigation of churn risk
+- Utilised DuckDB to perform high-performance SQL transformations on large datasets, improving efficiency of analytical processing
 
 ---
 
