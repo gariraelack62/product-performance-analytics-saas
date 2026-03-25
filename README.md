@@ -55,7 +55,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
 ---
 
-  # 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **Python** – Data cleaning, transformation
 
@@ -69,7 +69,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 ---
 
 
-  # 🧱 Data Architecture
+## 🧱 Data Architecture
 
 The project follows a layered data model:
 
@@ -94,8 +94,6 @@ This structure ensures scalability, consistency, and data quality.
 ---
 ## 📊 Dashboard Preview
 
-### Dashboard Overview
-![Dashboard Overview](images/dashboard_overview.png)
 
 ### KPI Analysis
 ![KPI Analysis](images/kpi_analysis.png)
@@ -113,7 +111,7 @@ This structure ensures scalability, consistency, and data quality.
 
 ---
 
-# 🔍 Key Insights
+## 🔍 Key Insights
 
   - Users failing to adopt core features early are more likely to churn
 
@@ -131,7 +129,7 @@ This structure ensures scalability, consistency, and data quality.
 - Early feature adoption reduces churn risk  
 - Data-driven onboarding improvements can significantly increase engagement  
 
-# 💡 Recommendations
+## 💡 Recommendations
 
 - Improve onboarding flow to increase early activation
 
