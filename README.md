@@ -113,6 +113,12 @@ The Power BI dashboard enables:
 
 ---
 
+## 📂 Repository Structure
+
+<details>
+<summary>Click to expand</summary>
+
+
 # 📂 Repository Structure
 
 /data
