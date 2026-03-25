@@ -43,7 +43,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 - **Churn Risk Indicators**
 
 
-  ---
+---
 
 
 ## 💼 Business Impact
@@ -66,7 +66,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 - **VS Code** – Development environment
 
 
-  ---
+---
 
 
   # 🧱 Data Architecture
@@ -94,11 +94,15 @@ This structure ensures scalability, consistency, and data quality.
 ---
 ## 📊 Dashboard Preview
 
-![Dashboard Overview](images/dashboard-overview.png)
-![KPI Analysis](images/kpi-analysis.png)
+### Dashboard Overview
+![Dashboard Overview](images/dashboard_overview.png)
+
+### KPI Analysis
+![KPI Analysis](images/kpi_analysis.png)
 
 
 ---
+
 ## 🔍 Key Analysis Performed
 
 - Cohort analysis (user activation over time)  
