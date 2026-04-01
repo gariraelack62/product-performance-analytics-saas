@@ -230,4 +230,3 @@ This project demonstrates:
 - KPI design aligned to business goals
 
 - Data storytelling for decision-making
-README.md
