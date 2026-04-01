@@ -75,7 +75,7 @@ The project follows a medallion architecture:
 - **Silver Layer** – Cleaned, standardised, and enriched data
 - **Gold Layer** – Business-ready fact and dimension tables (star schema)
 
-![Architecture](images/architecture.png)
+![Architecture](powerbi/images/Architecture.png)
 
 This structure ensures scalability, consistency, and data quality.
 
