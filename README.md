@@ -5,7 +5,7 @@
 🧠 Includes KPI design, data modelling, and stakeholder insights  
 📌 Designed to simulate real-world product analytics challenges in a SaaS environment
 
-Developed an end-to-end product and performance analytics solution for a B2B SaaS CRM, enabling KPI tracking, user behaviour analysis, and data-driven decision-making to improve activation, engagement, and reduce churn.
+Designed and implemented an end-to-end analytics solution for a B2B SaaS CRM, enabling KPI tracking, user behaviour analysis, and data-driven decision-making to improve activation, engagement, and reduce churn.
 
 🔗 This repository includes full data pipelines, SQL models, and Power BI dashboards used to generate insights.
 
@@ -69,17 +69,28 @@ This project aims to create clarity by defining consistent KPIs and providing re
 
 ## 🧱 Data Architecture
 
-The project follows a layered data model:
+The project follows a medallion architecture:
 
-  - **Raw Layer** – product events, accounts, users, deals, and geography datasets
+- **Bronze Layer** – Raw ingested data (no transformations)
+- **Silver Layer** – Cleaned, standardised, and enriched data
+- **Gold Layer** – Business-ready fact and dimension tables (star schema)
 
-  - **Bronze Layer** – Cleaned and standardised data
-
-  - **Silver Layer** – Modelled datasets for analysis
+![Architecture](images/architecture.png)
 
 This structure ensures scalability, consistency, and data quality.
 
 ---
+
+
+## 🧩 Data Model (Star Schema)
+
+Designed a star schema with conformed dimensions and multiple fact tables.
+
+![Model](images/star_schema.png)
+
+
+---
+
 
 ## 🔄 Data Workflow
 
@@ -92,12 +103,25 @@ This structure ensures scalability, consistency, and data quality.
 ---
 ## 📊 Dashboard Preview
 
-### Overview Dashboard
+### Executive Overview
+- High-level KPIs (accounts, events, users, deals)
+- Trends in product activity and deal creation
 ![Overview](images/dashboard_overview.png)
 
-### KPI Analysis
+
+### Product Usage & Adoption
+- Feature usage distribution
+- User engagement trends
+- Event category analysis
 ![KPI Analysis](powerbi/images/kpi_analysis.png)
 
+
+### Activation & Health Monitoring
+- Active vs inactive accounts
+- Activation rate tracking
+- Funnel performance insights
+![KPI Analysis](powerbi/images/kpi_analysis.png)
+  
 ---
 
 ## 🔍 Key Analysis Performed
@@ -122,6 +146,24 @@ This structure ensures scalability, consistency, and data quality.
   - High engagement correlates with improved conversion rates
 
 ---
+
+## 🚧 Challenges & Solutions
+
+- **DuckDB Concurrency Issue**
+  - Encountered file locking when connecting to Power BI
+  - Resolved using ACCESS_MODE=READ_ONLY in ODBC connection
+
+- **Duplicate Keys in Dimension Table**
+  - Relationships failed due to non-unique AccountId
+  - Fixed by cleaning and deduplicating keys in Power Query
+
+- **Data Modeling Complexity**
+  - Ensured one-to-many relationships and avoided many-to-many joins
+  - Designed a clean star schema for accurate aggregation
+    
+
+---
+
 
 ## 🧠 Key Takeaways
 
