@@ -76,6 +76,7 @@ The project follows a medallion architecture:
 - **Silver Layer** – Cleaned, standardised, and enriched data
 - **Gold Layer** – Business-ready fact and dimension tables (star schema)
 
+
 ![Architecture](powerbi/images/Architecture.png)
 
 - Implemented SQL transformations including joins, window functions, and aggregations to build analytical datasets. This structure ensures scalability, consistency, and data quality.
@@ -86,6 +87,7 @@ The project follows a medallion architecture:
 ## 🧩 Data Model (Star Schema)
 
 Designed a star schema with conformed dimensions and multiple fact tables.
+
 
 ![Model](powerbi/images/star_schema_diagram.png)
 
@@ -107,6 +109,8 @@ Designed a star schema with conformed dimensions and multiple fact tables.
 ### Executive Overview
 - High-level KPIs (accounts, events, users, deals)
 - Trends in product activity and deal creation
+
+  
 ![Overview](powerbi/images/execeutive_overview.png)
 
 
@@ -114,6 +118,8 @@ Designed a star schema with conformed dimensions and multiple fact tables.
 - Feature usage distribution
 - User engagement trends
 - Event category analysis
+
+  
 ![Product Usage](powerbi/images/product_usage_and_adoption.png)
 
 
@@ -121,6 +127,8 @@ Designed a star schema with conformed dimensions and multiple fact tables.
 - Active vs inactive accounts
 - Activation rate tracking
 - Funnel performance insights
+
+  
 ![Health Monitoring](powerbi/images/activation_funnel_and_health_monitoring.png)
   
 ---
