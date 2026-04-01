@@ -86,7 +86,7 @@ This structure ensures scalability, consistency, and data quality.
 
 Designed a star schema with conformed dimensions and multiple fact tables.
 
-![Model](images/star_schema.png)
+![Model](powerbi/images/star_schema_diagram.png)
 
 
 ---
@@ -106,21 +106,21 @@ Designed a star schema with conformed dimensions and multiple fact tables.
 ### Executive Overview
 - High-level KPIs (accounts, events, users, deals)
 - Trends in product activity and deal creation
-![Overview](images/dashboard_overview.png)
+![Overview](powerbi/images/execeutive_overview.png)
 
 
 ### Product Usage & Adoption
 - Feature usage distribution
 - User engagement trends
 - Event category analysis
-![KPI Analysis](powerbi/images/kpi_analysis.png)
+![Product Usage](powerbi/images/product_usage_and_adoption.png)
 
 
 ### Activation & Health Monitoring
 - Active vs inactive accounts
 - Activation rate tracking
 - Funnel performance insights
-![KPI Analysis](powerbi/images/kpi_analysis.png)
+![Health Monitoring](powerbi/images/activation_funnel_and_health_monitoring.png)
   
 ---
 
