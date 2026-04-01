@@ -50,6 +50,7 @@ This project aims to create clarity by defining consistent KPIs and providing re
 - Highlighted low feature adoption as a driver of early churn  
 - Provided insights to improve user engagement and product usage  
 - Enabled data-driven decision-making across product and sales teams
+- This solution provides a scalable analytics foundation that enables product and sales teams to monitor performance, identify risks, and optimise user engagement strategies.
 
 ---
 
@@ -77,7 +78,7 @@ The project follows a medallion architecture:
 
 ![Architecture](powerbi/images/Architecture.png)
 
-This structure ensures scalability, consistency, and data quality.
+- Implemented SQL transformations including joins, window functions, and aggregations to build analytical datasets. This structure ensures scalability, consistency, and data quality.
 
 ---
 
@@ -96,7 +97,7 @@ Designed a star schema with conformed dimensions and multiple fact tables.
 
 1. Data Collection – Raw product and account data  
 2. Data Cleaning – Python (Pandas)
-3. Data Modelling – SQL (DuckDB, Bronze → Silver layers)
+3. Data Transformation & Modelling – SQL (DuckDB, Bronze → Silver → Gold layers)
 4. Analysis – KPI definition and trend analysis  
 5. Visualisation – Power BI dashboards
 
@@ -131,7 +132,7 @@ Designed a star schema with conformed dimensions and multiple fact tables.
 - Feature adoption tracking  
 - Trend analysis of user engagement  
 - Root-cause investigation of churn risk
-- Utilised DuckDB to perform high-performance SQL transformations on large datasets, improving efficiency of analytical processing
+- Utilised DuckDB to perform high-performance SQL transformations, improving query efficiency and scalability
 
 ---
 
